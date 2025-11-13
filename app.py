@@ -64,8 +64,6 @@ st.markdown("""
 ### 👨‍🔬 Universal Alloy Strength Predictor  
 **Created by Prem Tiwari**    
 """)
-st.image("https://upload.wikimedia.org/wikipedia/commons/3/3b/Materials-science.jpg", width=500)
-st.divider()
 
 st.write("Estimate hardness (HV), UTS, and YS for arbitrary alloy systems using heuristic models.")
 
@@ -116,4 +114,5 @@ with tab2:
         st.download_button("Download Results CSV", csv, "predictions.csv", "text/csv")
 
 st.caption("⚠️ Heuristic estimates only — use for screening or baseline comparison.")
+
 
